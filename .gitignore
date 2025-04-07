@@ -1,0 +1,22 @@
+# 忽略构建文件
+/target/
+/build/
+/patch/
+/.env/
+/testcases/
+/mount/
+/aarch64-linux-musl-cross/
+
+# 忽略 log 文件和临时文件
+*.log
+**.pcap
+mount.img
+qemu.dtb
+__pycache__
+/aarch64-linux-musl-cross.tgz
+
+# 忽略测试文件
+/busybox
+
+# 忽略下载的工具链
+/aarch64-linux-musl-cross/
