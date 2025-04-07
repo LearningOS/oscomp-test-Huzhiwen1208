@@ -1,5 +1,6 @@
 echo Hello World!
-
+echo "#### OS COMP TEST GROUP START libctest-glibc ####"
+echo "#### OS COMP TEST GROUP START libctest-musl ####"
 ./brk
 ./chdir
 ./clone
@@ -32,5 +33,6 @@ echo Hello World!
 ./waitpid
 ./write
 ./yield
-
+echo "#### OS COMP TEST GROUP END libctest-musl ####"
+echo "#### OS COMP TEST GROUP END libctest-glibc ####"
 echo Exec Done
